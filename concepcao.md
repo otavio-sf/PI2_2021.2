@@ -5,8 +5,20 @@ Acesso rápido:
 * [Implementação](https://github.com/otavio-sf/PI2_2021.2/blob/main/implementacao.md)
 * [Operação](https://github.com/otavio-sf/PI2_2021.2/blob/main/operacao.md)
 
-  O projeto tem como objetivo a implementação do uso da Domótica em residências, para demonstrar as facilidades, comodidades e segurança que o uso dessa tecnologia pode nos fornecer durante o dia a dia. Para apresentar essa implementação, será utilizada uma maquete de uma residência, projetada pelo aluno, com diversos equipamentos eletrônicos listados abaixo:
-    
+  O projeto tem como objetivo a implementação do uso da Domótica em residências, para demonstrar as facilidades, comodidades e segurança que o uso dessa tecnologia pode nos fornecer durante o dia a dia. Para apresentar essa implementação, será utilizada uma maquete de uma residência com diversos equipamentos eletrônicos, funcionando em conjunto para obtermos as seguintes funções:
+  
+  * Acionamento de luzes do ambiente através de um monitoramento de presença;
+  * Detecção de vazamento de gás e/ou fumaça, acionando a abertura das janelas, soando um alarme específico e acendendo luzes indicando a saída;
+  * Monitoramento da temperatura e umidade do ambiente, fazendo o acionamento do condicionador de ar;
+  * Monitoramento do nível de chuva, informando o usuário sobre periculosidade ou caso tenha deixado as roupas na rua, fechamento de janelas e em caso de períodos de seca, acionamento da irrigação do jardim;
+  * Monitoramento de presença quando o usuário está ausente, com acionamento de alarme e envio de informações para o usuário;
+  * Controle de iluminação externa automatizada de acordo com a luminosidade do dia;
+  * Abertura automatizada de cortinas de acordo com a luminozidade externa do dia e acionamento de despertador.
+  * Acionamento de funções por aproximação, como descarga e torneiras.
+
+
+## Lista de componentes a serem utilizados:
+
     - Placa MEGA 2560 R3 + Fonte + Cabo USB para Arduino;
     - Sensor de Umidade e Temperatura DHT11;
     - Sensor de presença e movimento PIR;
